@@ -39,7 +39,7 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 Developed by: vinush.cv
 RegisterNumber:  22001897
 */
-###halfsubtractor
+### halfsubtractor
 module expthree(a,b,diff,borr);
 input a,b;
 output diff,borr;
@@ -47,7 +47,7 @@ assign diff = (a^b);
 assign borr = (~a&b);
 endmodule
 
-###fullsubtractor
+### fullsubtractor
 module expthreeone(a,b,c,diff,borr);
 input a,b,c;
 output diff,borr;
@@ -56,17 +56,29 @@ assign diff = (a^b^c);
 endmodule
 
 ## Output:
+## Truthtable:
+FOR HALFSUBTRACTOR:
+![truthtablehalfsub](https://user-images.githubusercontent.com/113975318/210934726-0ddd071a-4e2c-4348-8c35-c98c075f1ce3.png)
 
-
-
-## Truthtable
-
+FOR FULLSUBTRACTOR:
+![ttfullsub](https://user-images.githubusercontent.com/113975318/210934783-5315603d-43ab-4f3d-96b0-517808ef651f.png)
 
 
 ##  RTL realization
+FOR HALFSUBTRACTOR:
+![rtlhalfsub](https://user-images.githubusercontent.com/113975318/210934825-68849557-a276-4a24-b460-432a8035b4da.png)
+
+FOR FULLSUBTRACTOR:
+![rtlfullsub](https://user-images.githubusercontent.com/113975318/210934848-2e374390-fe37-4262-8ffa-b4780ef5e305.png)
 
 
 ## Timing diagram 
+FOR HALFSUBTRACTOR:
+![timinghalfsub](https://user-images.githubusercontent.com/113975318/210934884-f61d3be2-c570-47e4-9590-f106d559a76f.png)
+
+FOR FULLSUBTRACTOR:
+![timingfullsub](https://user-images.githubusercontent.com/113975318/210934915-6fd17152-d198-46a7-b93e-b56d0043b376.png)
+
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
