@@ -59,6 +59,7 @@ endmodule
 ## Output:
 ## Truthtable:
 ###FOR HALFSUBTRACTOR:
+
 ![truthtablehalfsub](https://user-images.githubusercontent.com/113975318/210934726-0ddd071a-4e2c-4348-8c35-c98c075f1ce3.png)
 
 ###FOR FULLSUBTRACTOR:
